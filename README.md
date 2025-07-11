@@ -46,8 +46,11 @@ npm install
 2. Enable Google Sheets API
 3. Create a Service Account
 4. Download the service account JSON file as `google-creds.json`
-5. Share your Google Sheet with the service account email
-6. Update the `SHEET_ID` in the script with your Google Sheet ID
+5. **Place `google-creds.json` in the project root** (this file is gitignored for security)
+6. Share your Google Sheet with the service account email
+7. Update the `SHEET_ID` in the script with your Google Sheet ID
+
+**⚠️ Security Note:** The `google-creds.json` file contains sensitive credentials and is automatically excluded from Git via `.gitignore`. Never commit this file to version control.
 
 ### 4. Environment Variables (Optional)
 Create a `.env` file if it doesn't exist or rename the current `env` file:
