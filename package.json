@@ -1,0 +1,20 @@
+{
+  "name": "osa-directory-scraper",
+  "version": "1.0.0",
+  "description": "This is a Node.js-powered web scraper that extracts member data from the Ontario Sign Association member directory and exports it to both a CSV file and Google Sheets.",
+  "main": "scrape-osa.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.0",
+    "google-auth-library": "^9.15.1",
+    "google-spreadsheet": "^4.1.4",
+    "googleapis": "^152.0.0",
+    "puppeteer": "^24.12.1"
+  }
+}
